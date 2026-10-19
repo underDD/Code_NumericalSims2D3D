@@ -27,15 +27,7 @@ To compare dimensionalities consistently, the manuscript matches characteristic 
 
 ### 2. Simulate neuronal activity
 
-The generated adjacency matrices are used by C-based implementations of the Izhikevich model:
-
-\[
-\frac{dv_i}{dt}=0.04v_i^2+5v_i+140-u_i+I_i+\eta_i,
-\qquad
-\frac{du_i}{dt}=a(bv_i-u_i).
-\]
-
-The model uses a mixture of excitatory and inhibitory neurons (80% and 20%, respectively, in the manuscript). Synaptic excitation, inhibition and noise can be adjusted to examine different dynamical regimes.
+The generated adjacency matrices are used by C-based implementations of the Izhikevich model. The model uses a mixture of excitatory and inhibitory neurons (80% and 20%, respectively, in the manuscript). Synaptic excitation, inhibition and noise can be adjusted to examine different dynamical regimes.
 
 ### 3. Analyse collective dynamics and functional connectivity
 
