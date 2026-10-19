@@ -1,4 +1,4 @@
-# Numerical modeling of neuronal cultures in two and three dimensions
+# Spatial Organization and Collective Dynamics in a Computational Model of Neuronal Cultures
 
 **A computational framework for constructing, simulating and analysing two- and three-dimensional neuronal cultures.**
 
